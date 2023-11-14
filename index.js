@@ -12,10 +12,10 @@ window.addEventListener('load', function() {
     console.log('El contenido ha cargado');
 
     var imagenes = [];
-    imagenes[0] = '../img/TheCleanGardenimg1.jpg';
-    imagenes[1] = '../img/TheCleanGardenimg2.jpg';
-    imagenes[2] = '../img/TheCleanGardenimg3.jpg';
-    imagenes[3] = '../img/TheCleanGardenimg4.jpg';
+    imagenes[0] = './img/TheCleanGardenimg1.jpg';
+    imagenes[1] = './img/TheCleanGardenimg2.jpg';
+    imagenes[2] = './img/TheCleanGardenimg3.jpg';
+    imagenes[3] = './img/TheCleanGardenimg4.jpg';
 
     var indiceImagenes = 0;
     var slider = document.images.slider; // Obtén la referencia al elemento con el nombre "slider"
